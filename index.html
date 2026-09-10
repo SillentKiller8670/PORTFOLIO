@@ -632,38 +632,21 @@
             </div>
 
 
-            <form class="contact-form" id="contactForm">
-
-                <input
-                    type="text"
-                    id="name"
-                    placeholder="Your Name"
-                    required
-                >
-
-                <input
-                    type="email"
-                    id="email"
-                    placeholder="Your Email"
-                    required
-                >
-
-                <textarea
-                    id="message"
-                    rows="6"
-                    placeholder="Your Message"
-                    required
-                ></textarea>
-
-                <button
-                    type="submit"
-                    class="btn primary-btn"
-                >
-                    Send Message
-                </button>
-
-            </form>
-
+            <form
+  action="https://formspree.io/f/xbgjwgla"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
         </div>
 
     </section>
