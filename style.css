@@ -1230,3 +1230,7 @@ body {
     }
 
 }
+.contact-form input,
+.contact-form textarea {
+    color: #2563eb !important;
+}
